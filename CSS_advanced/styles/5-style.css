@@ -1,4 +1,4 @@
-html {scroll-behavior: smooth;}
+html {font-size: 62.5%;}
 body {color: var(--text-color);
       font-family: var(--font-family-base);
       font-size: var(--font-size-medium);}
