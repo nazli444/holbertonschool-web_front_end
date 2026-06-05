@@ -56,15 +56,15 @@ h1, h2, h3, h4, h5, h6 {
 a {
     text-decoration: none;
 }
-a[href] {
+a:link {
     text-decoration: none;
 }
-a[href]:visited {
+a:link:visited {
     font-style: italic;
 }
-a[href]:hover {
+a:link:hover {
     text-decoration: underline;
 }
-a[href]:active {
+a:link:active {
     background-color: var(--color-light-grey);
 }
