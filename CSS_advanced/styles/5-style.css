@@ -1,4 +1,5 @@
 html {
+  scroll-behavior: smooth;
   font-size: 62.5%;
 }
 body {color: var(--text-color);
@@ -9,7 +10,6 @@ a {color: var(--text-color);}
 .card-category {color: #D73953;}
 .section-tagline {color: #D73953;}
 :root {
-    scroll-behavior: smooth;
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
