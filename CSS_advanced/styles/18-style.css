@@ -129,7 +129,7 @@ a:active {
 }
 .nav .nav-link {
     display: block;
-    padding: 0.8rem 1.6rem;
+    padding: calc(var(--font-size-medium) / 2) var(--font-size-medium);
 }
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
