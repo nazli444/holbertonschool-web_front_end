@@ -1,46 +1,4 @@
-html {
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-}
-
-body {
-    margin: 0;
-}
-
-hr {
-    box-sizing: content-box;
-    height: 0;
-    overflow: visible;
-}
-
-pre {
-    font-family: monospace, monospace;
-    font-size: 1em;
-}
-
-a {
-    background-color: transparent;
-}
-
-button,
-input,
-optgroup,
-select,
-textarea {
-    font-family: inherit;
-    font-size: 100%;
-    line-height: 1.15;
-    margin: 0;
-}
-
-button {
-    overflow: visible;
-    text-transform: none;
-}
-
-[hidden] {
-    display: none;
-}
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
