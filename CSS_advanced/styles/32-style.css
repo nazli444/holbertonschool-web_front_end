@@ -108,6 +108,13 @@ a {color: var(--text-color);}
     --transition-duration: 0.3s;
     --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
 }
+.nav .nav-link::before {
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
+}
+.button:hover {
+    transition-duration: var(--transition-duration);
+    transition-property: color, background-color;
+}
 .card-work:hover .card-image {
     transform: scale(1.2);
 }
@@ -165,7 +172,9 @@ a:active {
     text-decoration: var(--button-text-decoration);
 }
 .button:hover {
-    transition-property: background-color;
+    color: var(--button-hover-color);
+    text-decoration: var(--button-hover-text-decoration);
+    background: var(--button-hover-background);
 }
 [data-section-theme="dark"] {
     --button-color: var(--color-white);
