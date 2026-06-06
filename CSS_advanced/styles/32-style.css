@@ -169,6 +169,7 @@ a:active {
     text-decoration: var(--button-text-decoration);
 }
 .button:hover {
+    transition-duration: var(--transition-duration);
     transition-property: background-color;
 }
 [data-section-theme="dark"] {
